@@ -6,7 +6,8 @@ int main()
     GradeBook gradeBook2("CS102 Data Structures in C++");
 
     gradeBook1.displayMessage();
-    gradeBook1.determineClassAverage();
+    gradeBook1.inputGrades();
+    gradeBook1.displayGradeReport();
 
     return 0;
 }
