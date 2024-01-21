@@ -10,15 +10,11 @@ class GradeBook
         void setCourseName(string);
         string getCourseName();
         void displayMessage();
-        void determineClassAverage();
         void inputGrades();
         void displayGradeReport();
+        int maximum(int, int, int);
         
     private:
         string courseName;
-        int aCount;
-        int bCount;
-        int cCount;
-        int dCount;
-        int fCount;
+        int studentMaximum;
 };
