@@ -11,13 +11,15 @@ class GradeBook
         string getCourseName();
         void displayMessage();
         void inputGrades();
-        void determineClassAverage();
         void displayGradeReport();
-        int maximum(int, int, int);
         
     private:
         string courseName;
-        int studentMaximum;
+        int aCount;
+        int bCount;
+        int cCount;
+        int dCount;
+        int fCount;
 };
 
 // página 314
