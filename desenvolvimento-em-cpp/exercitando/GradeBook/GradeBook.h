@@ -5,18 +5,23 @@ using std::string;
 class GradeBook
 {
     public:
+        const static int students = 10;
 
-        GradeBook(string);
+        GradeBook(string, const int []);
+
         void setCourseName(string);
         string getCourseName();
         void displayMessage();
-        void inputGrades();
-        void displayGradeReport();
-        int maximum(int, int, int);
+        void processGrades();
+        int getMinimum();
+        int getMaximum();
+        double getAverage();
+        void outputBarChart();
+        void outputGrades();
         
     private:
         string courseName;
-        int studentMaximum;
+        int grades[students];
 };
 
 // página 314
