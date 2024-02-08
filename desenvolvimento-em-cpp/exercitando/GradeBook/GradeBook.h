@@ -6,8 +6,9 @@ class GradeBook
 {
     public:
         const static int students = 10;
+        const static int tests = 3;
 
-        GradeBook(string, const int []);
+        GradeBook(string, const int [][tests]);
 
         void setCourseName(string);
         string getCourseName();
@@ -15,13 +16,11 @@ class GradeBook
         void processGrades();
         int getMinimum();
         int getMaximum();
-        double getAverage();
+        double getAverage(const int [], const int);
         void outputBarChart();
         void outputGrades();
         
     private:
         string courseName;
-        int grades[students];
+        int grades[students][tests];
 };
-
-// página 314
