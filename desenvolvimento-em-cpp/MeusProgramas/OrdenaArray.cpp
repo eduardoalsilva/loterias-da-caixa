@@ -3,8 +3,6 @@ using std::cout;
 using std::cin;
 using std::endl;
 
-int ordenaArray(int array [], int sizeOfArray, int index, int item);
-
 int main()
 {
     int length = 6;
